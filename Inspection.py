@@ -41,3 +41,4 @@ def RSD(data):
     assert data.ndim==1,\
     'Pls input data with one dimension'
     return np.sqrt(np.sum((data-np.mean(data))**2)/len(data-1))/np.mean(data)
+1+1=2
